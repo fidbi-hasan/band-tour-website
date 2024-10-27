@@ -1,0 +1,96 @@
+.main_menu {
+  background-color: #2f3640;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.main_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main_menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.main_menu li a {
+  display: block;
+  padding: 16px 22px;
+  color: #f5f6fa;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.main_menu li a:hover {
+  background-color: #f5f6fa;
+  color: #2f3640;
+} 
+
+/* dropdown */
+.main_menu ul ul {
+  width: 200px;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  background-color: #2f3640;
+  display: none;
+}
+
+.main_menu ul ul li {
+  display: block;
+}
+
+.main_menu ul li:hover ul {
+  display: block;
+}
+
+.main_menu ul li:hover a {
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+.main_menu ul li:hover li a {
+  background-color: #2f3640;
+  color: #f5f6fa;
+}
+
+.main_menu ul ul li a:hover {
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+/* hero section */
+
+.hero-section {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.hero-overlay-text {
+  position: absolute;
+  bottom: 20px;
+}
+
+.hero-overlay-text p {
+  text-align: center;
+  color: #f5f6fa;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay-text p:last-child {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

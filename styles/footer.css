@@ -1,0 +1,97 @@
+.contact-section {
+  margin: 80px 238px;
+}
+
+.address-and-form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.contact-address p {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.contact-address p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-address p i {
+  margin-right: 10px;
+}
+
+.contact-address p:first-child i {
+  margin-right: 14px;
+}
+
+/* contact form */
+.contact-form input {
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+.contact-form input:first-child,
+.contact-form input:nth-child(2) {
+  width: 190px;
+}
+
+.contact-form input:first-child {
+  margin-right: 15px;
+}
+
+.contact-form input:nth-child(3) {
+  display: block;
+  width: 398.5px;
+  margin-top: 10px;
+}
+
+.send-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.send-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+/* map section */
+
+.map-section img {
+  width: 100%;
+}
+
+/* social icons section */
+
+.social-icons-section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.social-icons-section i {
+  color: gray;
+  font-size: 26px;
+  margin-right: 6px;
+}
+
+.social-icons-section i:nth-child(6) {
+  margin-right: 0;
+}
+
+.social-icons-section i:hover {
+  color: #aaa;
+}
+
+.social-icons-section p {
+  color: gray;
+  margin-top: 10px;
+  font-size: 14px;
+}

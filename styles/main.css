@@ -1,0 +1,146 @@
+.about-section {
+  margin: 80px 238px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.description {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+/* band members */
+.band-members {
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.single-band-member {
+  width: 180px;
+}
+
+.single-band-member p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.single-band-member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* tour section */
+
+.tour-section {
+  background-color: black;
+  padding: 80px 0;
+}
+
+.tour-dates {
+  color: white;
+}
+
+.tour-section ul {
+  margin: 20px 238px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tour-section li {
+  background-color: white;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  color: rgb(117, 117, 117);
+  font-size: 15px;
+  height: 40px;
+}
+
+li .sold-out {
+  background-color: orangered;
+  color: white;
+  padding: 2px 4px;
+  margin-left: 20px;
+}
+
+.tour-months li:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .ticket-count {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+/* tour destinations */
+.tour-destinations {
+  margin: 40px 238px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-destination-card {
+  background-color: white;
+  width: 250px;
+}
+
+.tour-destination-card img {
+  width: 100%;
+}
+
+.tour-destination-card img:hover {
+  filter: brightness(60%);
+}
+
+.tour-destination-card p:nth-child(2) {
+  font-weight: bold;
+  margin: 10px 16px;
+}
+
+.tour-destination-card p:nth-child(3) {
+  color: rgb(117, 117, 117);
+  margin: 10px 16px;
+}
+
+.tour-destination-card p:nth-child(4) {
+  line-height: 22px;
+  margin: 10px 16px;
+}
+
+.buy-tickets-button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 15px;
+  margin: 0 16px 15px;
+  cursor: pointer;
+}
+
+.buy-tickets-button:hover {
+  background-color: #ddd;
+  color: black;
+}
